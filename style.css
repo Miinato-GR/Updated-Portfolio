@@ -1,0 +1,164 @@
+/* color scheme for portfolio
+
+    - #DDDDDD : Main
+    - #B1B1B1 :secondary
+    - #858484 :text
+    - #303945
+    - #226CB3 :accents
+    - #629CD4
+    - #0B5194
+
+    - #27374D - background
+    - #526D82 - ????
+    - #9DB2BF - subtext
+    - #DDE6ED - main text
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #9DB2BF; 
+
+    background-color: #27374D;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+h1, h2 {
+    color: #DDE6ED;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #226CB3; */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+li {
+    
+    margin-right: 2rem;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: #DDE6ED;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    grid-column: 1 / 4;
+    font-size: 2.5rem;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.personal {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 2 / 3;
+    height: 100vh;
+    width: 100vw;
+    font-size: 2rem;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 2 / 3;
+    height: 100vh;
+    width: 100vw;
+    font-size: 2rem;
+}
+
+.worklist {
+    /* background-color: #DDE6ED; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+    width: 50vw;
+}
+
+.icon-container {
+    padding-bottom: 5rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 2 / 3;
+    height: 100vh;
+    width: 100vw;
+    font-size: 2rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 2 / 3;
+    height: 100vh;
+    width: 100vw;
+    font-size: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 2 / 3;
+    height: 15vh;
+    width: 100vw;
+    font-size: 2rem;
+}
