@@ -121,9 +121,9 @@ img {
 .worklist {
     /* background-color: #DDE6ED; */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     /* grid-template-rows: 1fr 1fr; */
-    row-gap: 1rem;
+    /* row-gap: 1rem; */
     width: 50vw;
 }
 
